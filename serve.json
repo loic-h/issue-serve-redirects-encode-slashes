@@ -1,0 +1,9 @@
+{
+    "public": "./www",
+    "redirects": [
+      {
+        "source": "/bar/:path*",
+        "destination": "/foo/bar/:path*"
+      }
+    ]
+  }

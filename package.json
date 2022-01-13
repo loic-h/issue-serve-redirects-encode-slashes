@@ -1,0 +1,14 @@
+{
+  "name": "issue-serve-wild-redirect",
+  "version": "1.0.0",
+  "description": "Reproduce an issue with serve package where redirects with wildcard encode double slashes.",
+  "main": "index.js",
+  "scripts": {
+    "serve": "serve -c serve.json"
+  },
+  "author": "Loïc Hamet",
+  "license": "ISC",
+  "devDependencies": {
+    "serve": "^13.0.2"
+  }
+}
